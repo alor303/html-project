@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image: url("welcomehome.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.navigationbar{
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+    overflow: hidden;
+}
+.navigationbar a{
+    float: right;
+    color: white;
+    text-align: center;
+    padding: 14px 5px;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+.navigationbar a:hover{
+    background-color: black;
+}
